@@ -1,7 +1,9 @@
 /**
  * Created by johny on 20.12.15.
  */
-var location1 = 3, location2 = 4, location3 = 5;
+var location1 = Math.floor(Math.random() * 5),
+    location2 = location1 + 1,
+    location3 = location2 + 1;
 var guess;
 var hits = 0;
 var guesses = 0;
