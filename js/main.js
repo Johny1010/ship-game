@@ -21,7 +21,6 @@ while(isSunk == false) {
             alert("Hit!");
             hits = hits + 1;
 
-
             if (hits == 3) {
                 isSunk = true;
                 alert("You sank my ship!")
